@@ -1,0 +1,35 @@
+* {
+  font-family: CascadiaCove;
+  background: transparent;
+}
+
+#window {
+  color: white;
+  background: rgba(20, 20, 20, 0.6);
+  margin: auto;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+#input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+#outer-box {
+  padding: 10px;
+}
+
+#img {
+  margin-right: 10px;
+}
+
+#entry {
+  padding: 10px;
+  border-radius: 8px;
+}
+
+#text {
+  margin: 2px;
+}
