@@ -8,8 +8,8 @@
     // Choose the order of the modules
     "modules-left": [
         "hyprland/workspaces",
-        "hyprland/mode",
-        "hyprland/scratchpad",
+        // "hyprland/mode",
+        // "hyprland/scratchpad",
         "hyprland/window"
     ],
     "modules-center": [
@@ -17,21 +17,21 @@
     ],
     "modules-right": [ 
         "tray",
-	"mpd",
+	      "mpd",
         "idle_inhibitor",
         "pulseaudio",
         "network",
-        "power-profiles-daemon",
+        // "power-profiles-daemon",
         "cpu",
         "memory",
         "temperature",
         "backlight",
-        "keyboard-state",
-        "hyprland/language",
+        // "keyboard-state",
+        // "hyprland/language",
         "battery",
-        "battery#bat2",
-        "clock",
-        "custom/power"
+        // "battery#bat2",
+        "clock"
+        // "custom/power"
     ],
     // Modules configuration
     // "hyprland/workspaces": {
