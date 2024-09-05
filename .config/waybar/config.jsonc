@@ -12,9 +12,9 @@
         // "hyprland/scratchpad",
         "hyprland/window"
     ],
-    "modules-center": [
-        "custom/media"
-    ],
+    // "modules-center": [
+    //    "custom/media"
+    // ],
     "modules-right": [ 
         "tray",
 	      "mpd",
