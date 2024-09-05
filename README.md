@@ -12,11 +12,14 @@ The current design language is to look "as close to a TUI as possible" aka. a te
 
 # Current Setup
 
+- Zsh
+  - It's simply a better shell. Bash works but being able to get theming as well as plugins for autocompletion is a total game changer. Fish is also really good and will probably be a better choice for someone who does not want to do as much customization.
+  - For the framework, I am using Oh-my-zsh which takes a lot of the guesswork out of setting up Zsh and it's plugins/themes.
 - hyprland
-  - I don't use it's eye candy features for the most part though it may change in the future. Mainly it's just that it's popular and actively developed.
+  - I don't use it's eye candy features for the most part though it may change in the future. Mainly it's just that it's popular, runs using Wayland and is actively developed.
 - fuzzel
   - A simple minimal runner that I use. I was originally going to go with rofi but I was having issues with it flickering.
 - waybar
-  - This is basically the default top bar that most people use. I just took the default configuration that it comes with and made it monotone.
+  - This is basically the default top bar that most people use. I just took the default configuration that it comes with and made it monotone as well as disabled most of the things that do not work on Hyprland or at least things that I have been bothered enough to figure out.
 - neovim
-  - I just threw on LazyVim for better language support though it's not necessary.
+  - I just threw on LazyVim for easy setting up of language support though it's not necessary.
