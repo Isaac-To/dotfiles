@@ -17,14 +17,14 @@
     // ],
     "modules-right": [ 
         "tray",
-	      "mpd",
-        "idle_inhibitor",
+	      // "mpd",
+        // "idle_inhibitor",
         "pulseaudio",
         "network",
         // "power-profiles-daemon",
-        "cpu",
-        "memory",
-        "temperature",
+        // "cpu",
+        // "memory",
+        // "temperature",
         "backlight",
         // "keyboard-state",
         // "hyprland/language",
@@ -186,7 +186,7 @@
             "car": "",
             "default": ["", "", ""]
         },
-        "on-click": "pavucontrol"
+        "on-click": "pavucontrol-qt"
     },
     "custom/media": {
         "format": "{icon} {}",
